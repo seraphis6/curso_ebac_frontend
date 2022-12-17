@@ -1,18 +1,6 @@
 const form  = document.getElementById('form-deposito');
 
 
-let valorA = document.getElementById('campoA')
-
-let valorB = document.getElementById('campoB')
-
-valorA,valorB = parseInt
-
-function validar(valorA,valorB){
-  if (validar(parseInt(valorA.value), parseInt(valorB.value))){
-    let = parseInt(valorB.value) > parseInt(valorA.value);
-  }}
-
-
 form.addEventListener('submit', function(e) {
   e.preventDefault();
 
@@ -22,7 +10,7 @@ form.addEventListener('submit', function(e) {
     if (parseInt(valorB.value) > parseInt(valorA.value)){
     alert("valido");
     }
-    else !(parseInt(valorB.value) > parseInt(valorA.value));{
+    else {
       alert("Não é válido");
     }
 
